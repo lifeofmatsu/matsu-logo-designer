@@ -24,13 +24,15 @@ A demonstration video can be accessed through Google Drive here: [User Guide (Vi
 #### User Screenshots
 ###### Image from Terminal (User Input):
 
-[![Image from Terminal](./assets/images/terminal.png)]
+[![User Input on CLI](./assets/images/terminal.png)]
 
 ###### Images of Example SVG files:
 
-[![Example SVG 1](./assets/images/example-svg-1.png)]
+[![Circular SVG](./svg-files/svg-circle.svg)]
 
-[![Example SVG 2](./assets/images/example-svg-2.png)]
+[![Triangular SVG](./svg-files/svg-triangle.svg)]
+
+[![Rectangular SVG](./svg-files/svg-square.svg)]
 
 
 ## ⇁ Getting Started
