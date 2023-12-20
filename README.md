@@ -20,7 +20,7 @@
 Below is a walkthrough video and screenshot examples of how to use the application for the user to get started.
 
 #### Walkthrough Video
-A demonstration video can be accessed through Google Drive here: [User Guide (Video)]().
+A demonstration video can be accessed through Google Drive here: [User Guide (Video)](https://drive.google.com/file/d/1LIuv9HyF5SUbEl1e5KphxzoKzrusWnlM/view?usp=sharing).
 
 #### User Examples
 ###### CLI Prompts & SVGs:
