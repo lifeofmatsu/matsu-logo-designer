@@ -4,11 +4,11 @@ const { writeFile, readdir } = require('fs').promises;
 const path = require('path');
 
 //import classes
-const { Circle, Triangle, Square } = require('./lib/shapes');
-const { SVGGenerator } = require('./lib/svgGenerator');
+const { Circle, Triangle, Square } = require('./develop/lib/shapes');
+const { SVGGenerator } = require('./develop/lib/svgGenerator');
 
 //global concatenation of current dir path w/ svg-files dir
-const svgFileDir = path.join('.', 'svg-files');
+const svgFileDir = path.join('./develop/assets', 'svg-files');
 
 //user prompts for SVG specifications
 const userPrompt = () => {

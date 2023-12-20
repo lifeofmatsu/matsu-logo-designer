@@ -27,6 +27,10 @@ A demonstration video can be accessed through Google Drive here: [User Guide (Vi
 [![User Input on CLI](./assets/images/terminal.png)]
 
 ###### Images of Example SVG files:
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="Circlular SVG w/ 'SVG' Display Text" src="./develop/assets/svg-files/svg-circle.svg">  Circular SVG |  <img width="1604" alt="Triangular SVG w/ 'PNG' Display Text" src="./develop/assets/svg-files/svg-triangle.svg"> Triangular SVG | <img width="1604" alt="Square SVG w/ 'JPG' Display Text" src="./develop/assets/svg-files/svg-square.svg"> Square SVG |
+
 
 [![Circular SVG](./svg-files/svg-circle.svg)]
 
