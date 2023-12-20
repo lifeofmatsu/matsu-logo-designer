@@ -1,7 +1,7 @@
 <div align="center">
 
 # SVG Generator 
-# .matsu.
+## .matsu.
 ##### A utility for that rare case you need an extremely simple SVG.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
