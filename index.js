@@ -25,6 +25,11 @@ const userPrompt = () => {
             type: 'input',
             name: 'shapeColor',
             message: 'Enter a color for the shape (keyword or hex):'
+        },
+        {
+            type: 'input',
+            name: 'fileName',
+            message: 'Enter a file name for your logo:'
         }
     ]);
 
@@ -48,7 +53,7 @@ const main = () => {
 
         const svgGenerator = new SVGGenerator(shape, input.text, input.textColor);
 
-        writeFile('logo.svg', svgGenerator.generateSVG())
+        writeFile(input.fileName, svgGenerator.generateSVG())
     })
     .then(() => console.log('Logo generated successfully and written to logo.svg'))
     .catch((e) => console.error(e));
