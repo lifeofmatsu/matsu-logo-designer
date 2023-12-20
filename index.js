@@ -1,7 +1,11 @@
 const inquirer = require('inquirer');
+const { writeFile, readdir } = require('fs').promises;
+const path = require('path');
 
 const { Circle, Triangle, Square } = require('./lib/shapes');
 const { SVGGenerator } = require('./lib/svgGenerator');
+
+const examplesDir = path.join('.', 'examples');
 
 //user prompts for SVG specifications
 const userPrompt = () => {
@@ -40,7 +44,7 @@ const userPrompt = () => {
 Function called when user does not enter a file name, or if the file name is blank (whitespace).
 Each generated SVG file is named in ascending order - 'logo1.svg', 'logo2.svg', etc.
 */
-const getNextFileName = async () => {
+const setFileName = async () => {
     try {
         const files = await readdir(examplesDir);
         const logoNumbers = files
@@ -56,6 +60,7 @@ const getNextFileName = async () => {
     }
 };
 
+//initialize application
 const main = async () => {
     try {
         const input = await userPrompt();
@@ -72,13 +77,11 @@ const main = async () => {
                 shape = new Square(input.shapeColor);
                 break;
         }
-
         const svgGenerator = new SVGGenerator(shape, input.text, input.textColor);
         
         let fileName = input.fileName.trim(); //check if user provided a file name or if their file name was only white space
-
         if (!fileName) {
-            fileName = await getNextFileName();
+            fileName = await setFileName();
         } else {
             //ensures the file name is appended with '.svg' file extension
             if (!fileName.endsWith('.svg')) {
@@ -94,4 +97,4 @@ const main = async () => {
     }
 };
 
-main(); //initialize
+main(); //init
