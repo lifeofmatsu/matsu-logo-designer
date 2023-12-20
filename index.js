@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const { Circle, Triangle, Square } = require('./lib/shapes');
 const { SVGGenerator } = require('./lib/svgGenerator');
 
+//user prompts for SVG specifications
 const userPrompt = () => {
     return inquirer.prompt([
         {
@@ -35,25 +36,30 @@ const userPrompt = () => {
 
 };
 
+/*
+Function called when user does not enter a file name, or if the file name is blank (whitespace).
+Each generated SVG file is named in ascending order - 'logo1.svg', 'logo2.svg', etc.
+*/
 const getNextFileName = async () => {
     try {
         const files = await readdir(examplesDir);
         const logoNumbers = files
-            .filter(file => file.startsWith('logo') && file.endsWith('.svg')) 
-            .map(file => parseInt(file.match(/logo(\d+)\.svg/)?.[1] || 0)) 
-            .sort((a, b) => a - b); 
+            .filter(file => file.startsWith('logo') && file.endsWith('.svg')) //filters filenames that start w/ 'logo' and end w/ '.svg'
+            .map(file => parseInt(file.match(/logo(\d+)\.svg/)?.[1] || 0)) //looks for a number in each filename and extracts it for use in sorting
+            .sort((a, b) => a - b); //sorts numbers in ascending order
 
         const nextNumber = logoNumbers.length > 0 ? logoNumbers[logoNumbers.length - 1] + 1 : 1;
         return path.join(examplesDir, `logo${nextNumber}.svg`);
     } catch (err) {
         console.error(err);
-        return path.join(examplesDir, 'logo1.svg'); 
+        return path.join(examplesDir, 'logo1.svg'); //in case of an error, defaults to 'logo1.svg' in the examples folder
     }
 };
 
 const main = async () => {
     try {
         const input = await userPrompt();
+        //construct shape object from user input
         let shape;
         switch (input.shape) {
             case 'Circle':
@@ -68,9 +74,8 @@ const main = async () => {
         }
 
         const svgGenerator = new SVGGenerator(shape, input.text, input.textColor);
-
-        //check if user provided a file name or if their file name was only white space
-        let fileName = input.fileName.trim();
+        
+        let fileName = input.fileName.trim(); //check if user provided a file name or if their file name was only white space
 
         if (!fileName) {
             fileName = await getNextFileName();
