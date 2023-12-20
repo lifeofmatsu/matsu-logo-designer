@@ -9,9 +9,9 @@ describe('SVGGenerator tests', () => {
             const svgGenerator = new SVGGenerator(circle, "ABC", "blue");
 
             const expectedSVG = '<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">'
-                + `<defs><style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=IBM+Plex+Mono:wght@500&display=swap');</style></defs>`
+                + `<defs><style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap');</style></defs>`
                 + `<circle cx="150" cy="100" r="80" fill="red" />`
-                + `<text x="150" y="109" fill="blue" text-anchor="middle" dominant-baseline="middle" font-size="80">ABC</text>`
+                + `<text x="150" y="109" fill="blue" text-anchor="middle" dominant-baseline="middle" font-size="80" font-family="IBM Plex Mono">ABC</text>`
                 + `</svg>`;
             
             expect(svgGenerator.generateSVG()).toBe(expectedSVG);
@@ -25,9 +25,9 @@ describe('SVGGenerator tests', () => {
             const svgGenerator = new SVGGenerator(triangle, "DEF", "yellow");
     
             const expectedSVG = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">`
-                + `<defs><style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=IBM+Plex+Mono:wght@500&display=swap');</style></defs>`
+                + `<defs><style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap');</style></defs>`
                 + `<polygon points="150, 18 244, 182 56, 182" fill="green" />`
-                + `<text x="150" y="155" fill="yellow" text-anchor="middle" dominant-baseline="middle" font-size="70">DEF</text>`
+                + `<text x="150" y="155" fill="yellow" text-anchor="middle" dominant-baseline="middle" font-size="70" font-family="IBM Plex Mono">DEF</text>`
                 + `</svg>`;
             
             expect(svgGenerator.generateSVG()).toBe(expectedSVG);
@@ -43,7 +43,7 @@ describe('SVGGenerator tests', () => {
             const expectedSVG = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">`
                 + `<defs><style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap');</style></defs>`
                 + `<rect x="50" y="50" width="150" height="150" fill="blue" />`
-                + `<text x="127" y="130" fill="red" text-anchor="middle" dominant-baseline="middle" font-size="80">GHI</text>`
+                + `<text x="125" y="130" fill="red" text-anchor="middle" dominant-baseline="middle" font-size="80" font-family="IBM Plex Mono">GHI</text>`
                 + `</svg>`;
             
             expect(svgGenerator.generateSVG()).toBe(expectedSVG);

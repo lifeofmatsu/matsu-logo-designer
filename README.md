@@ -1,7 +1,7 @@
 <div align="center">
 
 # SVG Generator 
-## .matsu.
+### .matsu.
 ##### A utility for that rare case you need an extremely simple SVG.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
@@ -28,7 +28,6 @@ A demonstration video can be accessed through Google Drive here: [User Guide (Vi
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="CLI Prompts for Circle SVG" src="./develop/assets/images/user-nodejs-cli-1.png">   |  <img width="1604" alt="CLI Prompts for Triangle SVG" src="./develop/assets/images/user-nodejs-cli-2.png">|<img width="1604" alt="CLI Prompts for Square SVG" src="./develop/assets/images/user-nodejs-cli-3.png">|
 |<img width="1604" alt="Circlular SVG - 'SVG'" src="./develop/assets/svg-files/circle-svg.svg">  |  <img width="1604" alt="Triangular SVG - 'PNG'" src="./develop/assets/svg-files/triangle-svg.svg">|<img width="1604" alt="Square SVG - 'JPG'" src="./develop/assets/svg-files/square-svg.svg">|
-
 
 
 ## ⇁ Getting Started

@@ -28,7 +28,7 @@ class SVGGenerator {
             xCoord = 150; yCoord = 155;
         } else { //instanceof Square
             fontSize = 80; 
-            xCoord = 127; yCoord = 130;
+            xCoord = 125; yCoord = 130;
         }
         
         /* begin SVG tag */
