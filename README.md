@@ -2,7 +2,7 @@
 
 # SVG Generator 
 ### .matsu.
-##### A utility for that rare case you need an extremely simple SVG.
+##### A utility for that rare case you need to design an extremely simple SVG.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 
@@ -17,7 +17,7 @@
 #### * [License](#-License)
 
 ## ⇁ Demo
-Walkthrough video and screenshot images for user to get started.
+Below is a walkthrough video and screenshot examples of how to use the application for the user to get started.
 
 #### Walkthrough Video
 A demonstration video can be accessed through Google Drive here: [User Guide (Video)]().
@@ -39,11 +39,11 @@ After installing Node.js on your system, follow the below steps:
 3. Use commands `npm install` or `npm install -y` to install required dependencies.
 
 #### Usage
-Use command `node index.js` from the CLI. The application will prompt for user input for logo text, text color, logo shape, shape color, and file name. The generated SVG file can be found in the 'examples' subfolder.
+Use command `node index.js` from the CLI. The application will prompt for user input for logo text, text color, logo shape, shape color, and file name. The generated SVG file can be found in the 'svg-files' subfolder.
 
 ## ⇁ Sources & Materials
 ##### ChatGPT 4 -
-Pointers on alternate file naming logic for 'setFileName()', particularly filitering, mapping, sorting for the 'logoNumbers' variable.
+Suggestions on alternate file naming logic for `setFileName()`, particularly filtering, mapping, and sorting for the `logoNumbers` variable.
 (https://chat.openai.com/)
 
 ##### [Ileriayo Adebiyi](https://github.com/Ileriayo)
@@ -55,7 +55,7 @@ License badge text, colors, and links adapted from their Markdown License Badges
 (https://gist.github.com/2a5d00690736b4c3a7ba.git)
 
 ##### Node.js
-JS framework used for this project.
+JavaScript framework used for this application.
 (https://nodejs.org/en)
 
 ##### Screencastify -
