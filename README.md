@@ -25,7 +25,8 @@ A demonstration video can be accessed through Google Drive here: [User Guide (Vi
 ###### CLI Prompts & SVGs:
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="User CLI Input Circle SVG" src="./develop/assets/images/user-nodejs-cli-1.png"> | <img width="1604" alt="User CLI Input Triangle SVG" src="./develop/assets/images/user-nodejs-cli-2.png">|<img width="1604" alt="User CLI Input Square SVG" src="./develop/assets/images/user-nodejs-cli-3.png">|<img width="1604" alt="Circlular SVG w/ 'SVG' Display Text" src="./develop/assets/svg-files/circle-svg.svg">  Circular SVG|<img width="1604" alt="Triangular SVG w/ 'PNG' Display Text" src="./develop/assets/svg-files/triangle-svg.svg"> Triangular SVG|<img width="1604" alt="Square SVG w/ 'JPG' Display Text" src="./develop/assets/svg-files/square-svg.svg"> Square SVG|
+|<img width="1604" alt="CLI Prompts for Circle SVG" src="./develop/assets/images/user-nodejs-cli-1.png">   |  <img width="1604" alt="CLI Prompts for Triangle SVG" src="./develop/assets/images/user-nodejs-cli-2.png">|<img width="1604" alt="CLI Prompts for Square SVG" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+|<img width="1604" alt=`Circlular SVG - 'SVG'` src="./develop/assets/svg-files/circle-svg.svg">  |  <img width="1604" alt=`Triangular SVG - 'PNG'` src="./develop/assets/svg-files/triangle-svg.svg">|<img width="1604" alt=`Square SVG - 'JPG'` src="./develop/assets/svg-files/square-svg.svg">|
 
 
 ## ⇁ Getting Started
