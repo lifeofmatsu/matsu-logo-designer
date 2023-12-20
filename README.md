@@ -21,15 +21,11 @@ Walkthrough video and screenshot images for user to get started.
 #### Walkthrough Video
 A demonstration video can be accessed through Google Drive here: [User Guide (Video)]().
 
-#### User Screenshots
-###### Image from Terminal (User Input):
-
-[![User Input on CLI](./develop/assets/images/user-nodejs-cli.png)]
-
-###### Images of Example SVG files:
+#### User Examples
+###### CLI Prompts & SVGs:
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="Circlular SVG w/ 'SVG' Display Text" src="./develop/assets/svg-files/svg-circle.svg">  Circular SVG |  <img width="1604" alt="Triangular SVG w/ 'PNG' Display Text" src="./develop/assets/svg-files/svg-triangle.svg"> Triangular SVG | <img width="1604" alt="Square SVG w/ 'JPG' Display Text" src="./develop/assets/svg-files/svg-square.svg"> Square SVG |
+|<img width="1604" alt="User CLI Input Circle SVG" src="./develop/assets/images/user-nodejs-cli-1.png"> | <img width="1604" alt="User CLI Input Triangle SVG" src="./develop/assets/images/user-nodejs-cli-2.png">|<img width="1604" alt="User CLI Input Square SVG" src="./develop/assets/images/user-nodejs-cli-3.png">|<img width="1604" alt="Circlular SVG w/ 'SVG' Display Text" src="./develop/assets/svg-files/svg-circle.svg">  Circular SVG |  <img width="1604" alt="Triangular SVG w/ 'PNG' Display Text" src="./develop/assets/svg-files/svg-triangle.svg"> Triangular SVG | <img width="1604" alt="Square SVG w/ 'JPG' Display Text" src="./develop/assets/svg-files/svg-square.svg"> Square SVG |
 
 
 ## ⇁ Getting Started
