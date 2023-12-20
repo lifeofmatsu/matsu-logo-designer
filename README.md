@@ -10,7 +10,7 @@
 ## ⇁ Table of Contents
 #### * [Demo](#-Demo)
 #### * [Getting Started](#-Getting-Started)
-#### * [Sources & Technologies](#-Sources-&-Technologies)
+#### * [Sources & Materials](#-Sources-&-Materials)
 #### * [Contribution](#-Contribution)
 #### * [Contact](#-Contact)
 #### * [License](#-License)
@@ -24,18 +24,12 @@ A demonstration video can be accessed through Google Drive here: [User Guide (Vi
 #### User Screenshots
 ###### Image from Terminal (User Input):
 
-[![User Input on CLI](./assets/images/terminal.png)]
+[![User Input on CLI](./develop/assets/images/user-nodejs-cli.png)]
 
 ###### Images of Example SVG files:
+| | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="Circlular SVG w/ 'SVG' Display Text" src="./develop/assets/svg-files/svg-circle.svg">  Circular SVG |  <img width="1604" alt="Triangular SVG w/ 'PNG' Display Text" src="./develop/assets/svg-files/svg-triangle.svg"> Triangular SVG | <img width="1604" alt="Square SVG w/ 'JPG' Display Text" src="./develop/assets/svg-files/svg-square.svg"> Square SVG |
-
-
-[![Circular SVG](./svg-files/svg-circle.svg)]
-
-[![Triangular SVG](./svg-files/svg-triangle.svg)]
-
-[![Rectangular SVG](./svg-files/svg-square.svg)]
 
 
 ## ⇁ Getting Started
@@ -63,7 +57,7 @@ License badge text, colors, and links adapted from their Markdown License Badges
 (https://gist.github.com/2a5d00690736b4c3a7ba.git)
 
 ##### Node.js
-Framework used for this project.
+JS framework used for this project.
 (https://nodejs.org/en)
 
 ##### Screencastify -
